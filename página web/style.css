@@ -1,0 +1,73 @@
+/**/
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+h1{
+    color: white;
+}
+  header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+  }
+  
+a2{
+    display: block;
+    width: 130px;
+    font-family: sans-serif;
+    font-weight: 900;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 50px 200px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+  nav a{
+    font-weight: 600;
+    padding-right: 90px;
+    margin-right: -10px; /* Reducción del espacio entre enlaces */
+    word-spacing: -2px;
+
+  }
+
+  nav a:hover{
+    color: yellow;
+  }
+
+  @media (max-width:600px){
+    header{
+        flex-direction: column;
+   }
+
+   nav{
+    padding: 10px 0px;
+   }
+  }
+
+  p{
+    color: white;
+  }
+
+  .corner-text {
+    position: absolute;
+    top: 66 px;
+    right: 10px; /* Posiciona el texto en la esquina superior derecha */
+    font-weight: 600;
+    z-index: 10; /* Asegura que el texto esté en frente */
+    color: white;
+  }
